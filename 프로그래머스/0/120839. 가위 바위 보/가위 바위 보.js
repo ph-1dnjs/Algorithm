@@ -1,5 +1,4 @@
 function solution(rsp) {
-    console.log(rsp.split(''));
     const arr = rsp.split('').map(i => {
         switch(i) {
             case '2': return 0;
